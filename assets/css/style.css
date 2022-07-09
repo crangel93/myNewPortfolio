@@ -14,7 +14,7 @@ header nav ul li a{
 }header img{
     width:15%;
     float:right;
-    clear:both;
+ 
     
     margin:0 auto;
 
@@ -55,8 +55,10 @@ header nav ul li a{
     justify-content:center;
     clear:both;
     width:auto;
-    border:2px black solid;
-    background-color: black;
+    
+   
+    float:center;
+    margin:0 auto 20px auto;
 }.vertical{
     vertical-align:top;
 }
@@ -73,4 +75,10 @@ margin:0 auto;
 .portfolioPics{
     position:relative;
     bottom:100px;
+}
+.modesto{
+justify-content: center;
+width:20%;
+opacity:.50;
+
 }
