@@ -1,56 +1,38 @@
-*{
-    font-family:monospace;
+
+.container{
+display:flex;
+
+justify-content:space-around;
 }
-header nav ul li{
-    list-style: none;
-    
+.item{
+    margin:5px;
+ 
+    padding:6px;
+
+   
+  
 }
-header nav ul li a{
+.logo{
+    background-image:url(../images/logo.png);
+flex:1;
+}
+.navigation{
+flex:3;
+}
+.profile{
+
+}nav ul li{
+    list-style:none;
+    text-decoration:none;
+}
+nav ul li a{
     float:left;
     color: black;
     text-decoration: none;
     margin:50px;
-    
-}header img{
-    width:15%;
-    float:right;
- 
-    
-    margin:0 auto;
-
-}header p{
-    text-align:center;
-    float:right;
-   width:15%;
-    padding:0 5px 0 5px;
-   font-family:monospace;
- 
-   clear:both;
-   font-size:13px;
-  
-   
 }
-.aboutMe{
-    float:right;
-    margin:0 auto;
-    width:25%;
-   
-}
-.portfolio img{
-    width:40px;
-    height:auto;
-    display:inline;
-
-
-}.center{
-    width:30em;
-     height:15em;
-     margin-left:auto;
-     margin-right:auto;
-     width:50%;
-
-}.portfolio{
-    display:inline-flex;
+.portfolio{
+    display:flexbox;
     align-items: center;
     justify-content:center;
     clear:both;
@@ -59,26 +41,17 @@ header nav ul li a{
    
     float:center;
     margin:0 auto 20px auto;
-}.vertical{
-    vertical-align:top;
 }
-.borderBottomWidth{
-/*width:10%;*/
-margin:0 auto;
-
-}nav{
- 
+.middle img{
+  
+   
+    background-image: url('../images/modesto.jpg');
 }
-.imgRight{
-    float:left;
+.portfolio > a{
+    display:inline-flex;
 }
-.portfolioPics{
-    position:relative;
-    bottom:100px;
-}
-.modesto{
-justify-content: center;
-width:20%;
-opacity:.50;
+.portfolio > h3{
+    display:flex;
+    justify-content:center;
 
 }
